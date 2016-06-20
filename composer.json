@@ -1,0 +1,5 @@
+{
+    "require": {
+       "friendsofsymfony/message": "dev-master"
+    }
+}

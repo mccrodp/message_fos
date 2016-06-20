@@ -1,0 +1,5 @@
+<?php
+/**
+ * @file
+ * Message FOS user to user messaging bridge for FOSMessage library.
+ */
