@@ -1,5 +1,23 @@
 {
-    "require": {
-       "friendsofsymfony/message": "dev-master"
+  "name": "drupal/message_fos",
+  "description": "Message FOS is a driver module to allow use of FOSMessage Symfony library.",
+  "type": "drupal-module",
+  "homepage": "https://drupal.org/project/message_fos",
+  "authors": [
+    {
+      "name": "Paul McCrodden (mccrodp)",
+      "homepage": "https://www.drupal.org/u/mccrodp",
+      "role": "Maintainer"
     }
+  ],
+  "support": {
+    "issues": "https://drupal.org/project/issues/message_fos",
+    "irc": "irc://irc.freenode.org/drupal-contribute",
+    "source": "https://cgit.drupalcode.org/message_fos"
+  },
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {
+    "friendsofsymfony/message": "dev-master"
+  }
 }

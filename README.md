@@ -26,7 +26,7 @@ DEPENDENCIES
 
 INSTALLATION
 ------------
-
+Download Composer Manager (deprecated) and run 'composer drupal-update' to install FOSMessage library, or install Drupal 8 using Composer.
 
 
 CONFIGURATION

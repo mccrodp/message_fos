@@ -3,3 +3,21 @@
  * @file
  * Message FOS user to user messaging bridge for FOSMessage library.
  */
+
+/**
+ * Implements hook_requirements().
+ */
+function message_fos_requirements($phase) {
+    $requirements = [];
+    if ($phase == 'runtime') {
+        if (!class_exists('FOS\Message\Repository')) {
+            $requirements['fosmessage_library'] = [
+                'value' => 'Message FOS',
+                'description' => t('Message FOS requires the friendsofsymfony/message library.'),
+                'severity' => REQUIREMENT_ERROR,
+            ];
+        }
+    }
+
+    return $requirements;
+}
