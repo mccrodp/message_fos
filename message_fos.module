@@ -21,12 +21,3 @@ function message_fos_requirements($phase) {
 
     return $requirements;
 }
-
-/**
- * Implements hook_entity_type_alter.
- *
- * Change the User entity class to our extended Person class.
- */
-function message_fos_entity_type_alter(array &$entity_types) {
-    $entity_types['user']->setClass('Drupal\message_fos\Driver\Driver\Model\Person');
-}
