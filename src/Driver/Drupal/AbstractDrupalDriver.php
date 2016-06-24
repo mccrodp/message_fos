@@ -15,9 +15,7 @@ use FOS\Message\Model\MessageInterface;
 use FOS\Message\Model\MessagePersonInterface;
 
 /**
- * Abstract driver for Doctrine persistence managers (ORM and ODM).
- *
- * @author Titouan Galopin <galopintitouan@gmail.com>
+ * Abstract driver for Drupal entity manager.
  */
 abstract class AbstractDrupalDriver extends AbstractDriver
 {
