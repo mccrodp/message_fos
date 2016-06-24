@@ -4,6 +4,8 @@
  * Message FOS Drupal Driver.
  */
 
+namespace Drupal\message_fos\Driver\Driver\Model;
+
 use Drupal\user\Entity\User;
 use FOS\Message\Model\PersonInterface;
 
