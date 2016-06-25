@@ -14,11 +14,6 @@ use FOS\Message\Model\PersonInterface;
  *
  * From base User class: 'The base table name here is plural, despite Drupal
  * table naming standards, because "user" is a reserved word in many databases.'
- *
- * @ContentEntityType(
- *   id = "message_fos_user",
- *   label = @Translation("Message FOS User"),
- *   )
  */
 class MessageFOSUser implements PersonInterface {
 
